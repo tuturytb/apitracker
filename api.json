@@ -1,107 +1,56 @@
 {
-    "pagination": {
-      "limit": 100,
-      "offset": 0,
-      "count": 2,
-      "total": 2
-    },
-    "data": [
-      {
-        "flight_date": "2024-05-27",
-        "flight_status": "active",
-        "departure": {
-          "airport": "John F Kennedy International",
-          "timezone": "America/New_York",
-          "iata": "JFK",
-          "icao": "KJFK",
-          "terminal": "1",
-          "gate": "4",
-          "delay": 31,
-          "scheduled": "2024-05-27T16:30:00+00:00",
-          "estimated": "2024-05-27T16:30:00+00:00",
-          "actual": null,
-          "estimated_runway": null,
-          "actual_runway": null
-        },
-        "arrival": {
-          "airport": "Charles De Gaulle",
-          "timezone": "Europe/Paris",
-          "iata": "CDG",
-          "icao": "LFPG",
-          "terminal": "2E",
-          "gate": null,
-          "baggage": "40",
-          "delay": null,
-          "scheduled": "2024-05-28T05:55:00+00:00",
-          "estimated": "2024-05-28T05:55:00+00:00",
-          "actual": null,
-          "estimated_runway": null,
-          "actual_runway": null
-        },
-        "airline": {
-          "name": "Air France",
-          "iata": "AF",
-          "icao": "AFR"
-        },
-        "flight": {
-          "number": "1",
-          "iata": "AF1",
-          "icao": "AFR1",
-          "codeshared": null
-        },
-        "aircraft": null,
-        "live": null
+  "pagination": {
+    "limit": 100,
+    "offset": 0,
+    "count": 2,
+    "total": 2
+  },
+  "data": [
+    {
+      "flight_date": "2024-05-27",
+      "flight_status": "active",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "1",
+        "gate": "4",
+        "delay": 0,
+        "scheduled": "2024-05-27T16:30:00+00:00",
+        "estimated": "2024-05-27T16:30:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
       },
-      {
-        "flight_date": "2024-05-26",
-        "flight_status": "landed",
-        "departure": {
-          "airport": "John F Kennedy International",
-          "timezone": "America/New_York",
-          "iata": "JFK",
-          "icao": "KJFK",
-          "terminal": "1",
-          "gate": "4",
-          "delay": 30,
-          "scheduled": "2024-05-26T16:30:00+00:00",
-          "estimated": "2024-05-26T16:30:00+00:00",
-          "actual": "2024-05-26T16:59:00+00:00",
-          "estimated_runway": "2024-05-26T16:59:00+00:00",
-          "actual_runway": "2024-05-26T16:59:00+00:00"
-        },
-        "arrival": {
-          "airport": "Charles De Gaulle",
-          "timezone": "Europe/Paris",
-          "iata": "CDG",
-          "icao": "LFPG",
-          "terminal": "2E",
-          "gate": null,
-          "baggage": "40",
-          "delay": null,
-          "scheduled": "2024-05-27T05:55:00+00:00",
-          "estimated": "2024-05-27T05:55:00+00:00",
-          "actual": "2024-05-27T05:16:00+00:00",
-          "estimated_runway": "2024-05-27T05:16:00+00:00",
-          "actual_runway": "2024-05-27T05:16:00+00:00"
-        },
-        "airline": {
-          "name": "Air France",
-          "iata": "AF",
-          "icao": "AFR"
-        },
-        "flight": {
-          "number": "1",
-          "iata": "AF1",
-          "icao": "AFR1",
-          "codeshared": null
-        },
-        "aircraft": {
-          "registration": "F-GZNE",
-          "iata": "B77W",
-          "icao": "B77W",
-          "icao24": "3965A4"
-        },
-        "live": null
-      }
-    ]
-  }
+      "arrival": {
+        "airport": "Charles De Gaulle",
+        "timezone": "Europe/Paris",
+        "iata": "CDG",
+        "icao": "LFPG",
+        "terminal": "2E",
+        "gate": null,
+        "baggage": "40",
+        "delay": null,
+        "scheduled": "2024-05-28T05:55:00+00:00",
+        "estimated": "2024-05-28T05:55:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Air France",
+        "iata": "AF",
+        "icao": "AFR"
+      },
+      "flight": {
+        "number": "1",
+        "iata": "AF1",
+        "icao": "AFR1",
+        "codeshared": null
+      },
+      "aircraft": null,
+      "live": null
+    }
+  ]
+}
