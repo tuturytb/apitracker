@@ -16,7 +16,7 @@
         "icao": "KJFK",
         "terminal": "1",
         "gate": "4",
-        "delay": null,
+        "delay": 5,
         "scheduled": "2024-05-27T16:30:00+00:00",
         "estimated": "2024-05-27T16:30:00+00:00",
         "actual": null,
