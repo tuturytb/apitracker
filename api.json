@@ -16,9 +16,9 @@
         "icao": "KJFK",
         "terminal": "1",
         "gate": "4",
-        "delay": 5,
+        "delay": null,
         "scheduled": "2024-05-27T16:30:00+00:00",
-        "estimated": "2024-05-27T16:35:00+00:00",
+        "estimated": "2024-05-27T16:30:00+00:00",
         "actual": null,
         "estimated_runway": null,
         "actual_runway": null
@@ -33,7 +33,7 @@
         "baggage": "40",
         "delay": null,
         "scheduled": "2024-05-28T05:55:00+00:00",
-        "estimated": "2024-05-28T06:00:00+00:00",
+        "estimated": "2024-05-28T05:55:00+00:00",
         "actual": null,
         "estimated_runway": null,
         "actual_runway": null
